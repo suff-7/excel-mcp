@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "excel-server": {
+      "command": "C:\\Program Files\\Python313\\python.exe",
+      "args": ["excel_fastmcp_server.py"],
+      "cwd": "C:\\Users\\syed.sufyaan\\Documents\\excel_mcp"
+    }
+  }
+} 

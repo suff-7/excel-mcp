@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "minimal-test-server": {
+      "command": "C:\\Program Files\\Python313\\python.exe",
+      "args": ["minimal_test_server.py"],
+      "cwd": "C:\\Users\\syed.sufyaan\\Documents\\excel_mcp"
+    }
+  }
+} 
