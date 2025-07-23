@@ -819,7 +819,8 @@ class ExcelFastMCPServer:
         """Run the FastMCP server."""
         try:
             logger.info(f"Starting Excel FastMCP Server on host 0.0.0.0 port {PORT}")
-            self.mcp.run(transport="streamable-http")
+            # Use SSE transport which is more compatible with MCP clients
+            self.mcp.run(transport="sse")
         except Exception as e:
             logger.error(f"Failed to start server: {e}")
             raise
